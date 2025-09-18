@@ -3,7 +3,7 @@ package db
 
 import (
 	"fmt"
-	"github.com/vdebu/microservice/order/internal/application/core/domain"
+	"github.com/vdebu/market/order/internal/application/core/domain"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )

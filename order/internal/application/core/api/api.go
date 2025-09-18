@@ -1,7 +1,10 @@
 // Package api 纯粹的业务概念
 package api
 
-import "github.com/vdebu/microservice/order/internal/application/core/domain"
+import (
+	"github.com/vdebu/market/order/internal/application/core/domain"
+	"github.com/vdebu/market/order/internal/ports"
+)
 
 type Application struct {
 	db ports.DBPort
